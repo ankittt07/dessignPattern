@@ -1,0 +1,29 @@
+Non-access modifiers are those keywords which do not have anything related to the level of access but they provide a special
+ functionality when specified.
+===============================================================================================================================
+1.Final: Final keyword can be used with variable, method or class. It prevents from its content from being modified.
+         When declared with class, it prevents the class from being extended.
+==============================================================================================================================
+2.Static: Static modifier is used with class variables and methods which can be accessed without instance of class.
+          Static variables has only single storage. All objects share the single storage of static variable. They
+          can be accessed directly without any object. Static methods can also be declared. main() method is the
+          popular static method we have. Static blocks can also be declared and are executed before main() method.
+ ==============================================================================================================================
+3.abstract: abstract can be used with class and methods. An abstract class can never be instantiated and its purpose
+            is only to be extended. Abstract methods are declared without body and ends with semicolon. If a class
+             contains an abstract method, it should also be specified as abstract keywords. A class which extends
+             an abstract class must implement all of its abstract methods.
+===============================================================================================================================
+
+4. Synchronized: It indicates that the method can be accessed only by one thread at a time.
+=============================================================================================================================
+5.Transient : An instance variable is marked transient to indicate the JVM to skip the particular variable when serializing
+              the object containing it.
+===============================================================================================================================
+6.Volatile: The Java volatile keyword is used to mark a Java variable as "being stored in main memory". More precisely that means,
+             that every read of a volatile variable will be read from the computer's main memory, and not from the CPU cache, and
+             that every write to a volatile variable will be written to main memory, and not just to the CPU cache.
+====================================================================================================================================
+strictfp: It is used so that the floating-point precision do not change from one platform to another platform. Java strictfp keyword ensures
+          that you will get the same result on every platform if you perform operations in the floating-point variable.
+===========================================================================================================================================
