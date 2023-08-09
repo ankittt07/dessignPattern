@@ -1,4 +1,4 @@
-package Day1Challange;
+package ReverseProblems;
 
 public class reverseAStrings {
     public static void main(String[] args) {

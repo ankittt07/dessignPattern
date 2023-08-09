@@ -17,11 +17,11 @@ public class creationOfClassAndObject {
          System.out.println("The sum is::"+c);
      }
      //2. Method should return integer value to another method
-    public int sum(int a,int b,int c){
+    public int sum1(){
         //This concept should be used to assigned global values into local variables in java
-        this.a=a;
-        this.b=b;
-        this.c=c;
+       a=a;
+       b=b;
+       c=c;
         System.out.println("The sum of two value is ::"+c);
         return c;
     }
@@ -30,5 +30,10 @@ public class creationOfClassAndObject {
         //When we create an object in java anything that written in constructor should calls as an priority
         creationOfClassAndObject obj = new creationOfClassAndObject();
         System.out.println(obj);
+        obj.sum();
+        obj.sum1()
+        ;
+
+
     }
 }
