@@ -1,0 +1,5 @@
+1. initilize variables as private and defined as null
+2. define constructor as a private without body
+3. Define a method with same class name and use getmethod() to call a method
+4. using if statement create an object instance on run time while they equals to null .
+5. return null while object is not initiated .
